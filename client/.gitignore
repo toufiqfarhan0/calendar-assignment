@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build output (React)
+build/
+dist/
+
+# Static files cache (for Service Workers)
+.cache/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# MacOS files
+.DS_Store
+
+# ESLint cache
+.eslintcache
+
+# Jest cache and coverage output
+coverage/
+jest-test-results.json
+.vscode-test/
+
+# TypeScript output
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Yarn v1 and v2 cache folders
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+
+# MongoDB data files (if any)
+data/
+
+# Any other local config files
+local-config.js
