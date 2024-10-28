@@ -7,7 +7,7 @@ const router = express.Router();
 const oauth2Client = new OAuth2Client(
   process.env.GOOGLE_CLIENT_ID,
   process.env.GOOGLE_CLIENT_SECRET,
-  'http://localhost:5173' // Your frontend URL
+  'https://calendar-assignment-frontend.onrender.com' // Your frontend URL
 );
 
 // Route to verify Google access token

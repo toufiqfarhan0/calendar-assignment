@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 // Enable CORS for all routes
 app.use(
   cors({
-    origin: 'http://localhost:5173', // Allow only your frontend origin
+    origin: 'https://calendar-assignment-frontend.onrender.com', // Allow only your frontend origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
   })
