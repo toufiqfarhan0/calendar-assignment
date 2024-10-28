@@ -4,7 +4,7 @@ import { Calendar, Plus, X, LogOut } from 'lucide-react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const url = "http://localhost:3000"
+const url = "https://calendar-assignment-4r2g.onrender.com"
 
 const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;
